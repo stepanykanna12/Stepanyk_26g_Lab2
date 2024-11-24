@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обзор Кріптовалют</title>
+    <style>
+        body {
+            font-family: Georgia, sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 980px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .logo {
+            width: 125px;
+            height: auto;
+        }
+        .search {
+            display: flex;
+            align-items: center;
+        }
+        .search input {
+            width: 250px;
+            padding: 5px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+        }
+        .search button {
+            padding: 5px 15px;
+            border: none;
+            background-color: #007acc;
+            color: white;
+            cursor: pointer;
+        }
+        nav {
+            background-color: #007acc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+            margin-right: 20px;
+            color: white;
+            cursor: pointer;
+        }
+        nav li:hover {
+            text-decoration: underline;
+        }
+        .content-wrapper {
+            display: flex;
+            margin-top: 20px;
+        }
+        .content-text {
+            width: 300px;
+            padding: 10px;
+            margin-right: 20px;
+        }
+        .content-image {
+            width: 960px;
+            height: 400px;
+            background: #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .sub-content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .sub-content .block {
+            width: 225px;
+            height: 180px;
+            background: #ccc;
+            text-align: center;
+            padding: 10px;
+        }
+        .bottom-section {
+            display: flex;
+            margin-top: 40px;
+        }
+        .bottom-left {
+            width: 300px;
+            padding-right: 20px;
+        }
+        .bottom-video {
+            width: 300px;
+            height: 235px;
+            background: #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+        .bottom-right {
+            flex-grow: 1;
+        }
+        .profile-block {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 80px;
+            height: 80px;
+            background: #ccc;
+            margin-right: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #eee;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Обзор Криптовалют</h1>
+        <div class="search">
+            <input type="text" placeholder="Пошук по крипто-біржах">
+            <button>Пошук</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>Головна</li>
+            <li>Інвестиції</li>
+            <li>Біржи</li>
+            <li>Ринки</li>
+            <li>Контакти</li>
+        </ul>
+    </nav>
+    <div class="content-wrapper">
+        <div class="content-text">
+            <h2>Заголовок секції</h2>
+            <p>Цей текст описує фінансові аспекти. Він містить корисну інформацію для відвідувачів. Ви можете змінити цей текст на необхідний контент.</p>
+        </div>
+        <div class="content-image">
+            <p>Тут буде зображення 960x400</p>
+        </div>
+    </div>
+    <div class="sub-content">
+        <div class="block">
+            <h3>Інвестиції</h3>
+            <p>Поради з управління капіталом та аналіз ринків.</p>
+            <a href="#">Дізнатися більше</a>
+        </div>
+        <div class="block">
+            <h3>Бюджетування</h3>
+            <p>Як контролювати витрати та планувати дохід.</p>
+            <a href="#">Дізнатися більше</a>
+        </div>
+        <div class="block">
+            <h3>Фондові ринки</h3>
+            <p>Огляд біржових індексів та динаміка акцій.</p>
+            <a href="#">Дізнатися більше</a>
+        </div>
+        <div class="block">
+            <h3>Поради</h3>
+            <p>Практичні поради для кожного дня.</p>
+            <a href="#">Дізнатися більше</a>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <div class="bottom-left">
+            <h3>Тексти та новини</h3>
+            <p>Тут можуть бути текстові статті та новини про фінансовий стан, економічний ринок та інше.</p>
+            <p>Деталі та аналіз ринків, рекомендації для інвесторів тощо.</p>
+        </div>
+        <div class="bottom-video">
+            <p>Тут буде відео 300x235</p>
+        </div>
+        <div class="bottom-right">
+            <div class="profile-block">
+                <div class="profile-image"></div>
+                <div>
+                    <p><strong>Ім'я</strong></p>
+                    <p>Спеціалізація</p>
+                    <a href="#">Переглянути профіль</a>
+                </div>
+            </div>
+            <div class="profile-block">
+                <div class="profile-image"></div>
+                <div>
+                    <p><strong>Ім'я</strong></p>
+                    <p>Спеціалізація</p>
+                    <a href="#">Переглянути профіль</a>
+                </div>
+            </div>
+            <div class="profile-block">
+                <div class="profile-image"></div>
+                <div>
+                    <p><strong>Ім'я</strong></p>
+                    <p>Спеціалізація</p>
+                    <a href="#">Переглянути профіль</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        26Бд-Комп Степанюк Анна Володимирівна.
+    </footer>
+</body>
+</html>
